@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <UserSecretsId>aspnet-AppMvcBasica-99056F96-C5C3-4F89-A4C1-8C5023F13BAD</UserSecretsId>
+	<ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+	  <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.3" />
+	  <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.3" />
+	  <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.3" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.3" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.3" />	  
+  </ItemGroup>
+
+</Project>
